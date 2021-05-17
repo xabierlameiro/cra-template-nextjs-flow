@@ -1,6 +1,6 @@
 {
     "name": "cra-template-nextjs-flow",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "keywords": [
         "react",
         "create-react-app",
@@ -16,15 +16,15 @@
     "description": "The base Nextjs and Flow template for Create React App.",
     "repository": {
         "type": "git",
-        "url": "https://github.com/xabierlameiro/create-flow-nextjs-app",
-        "directory": "packages/cra-template-typescript"
+        "url": "https://github.com/xabierlameiro/cra-template-nextjs-flow",
+        "directory": "/"
     },
     "license": "MIT",
     "engines": {
         "node": ">=10"
     },
     "bugs": {
-        "url": "https://github.com/xabierlameiro/create-flow-nextjs-app/issues"
+        "url": "https://github.com/xabierlameiro/cra-template-nextjs-flow/issues"
     },
     "files": [
         "template",

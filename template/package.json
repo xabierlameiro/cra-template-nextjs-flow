@@ -1,0 +1,85 @@
+{
+  "name": "cra-template-nextjs-flow",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": "Xabier Lameiro xabier.lameiro@gmail.com",
+  "private": false,
+  "description": "A quick start Nextjs App template with React, Flow, Jest, Prettier, Eslint and Husky",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "cnextjsa-template-flow": "0.0.2",
+    "flow-typed": "^3.3.1",
+    "next": "10.2.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.14.2",
+    "@babel/preset-flow": "^7.13.13",
+    "@babel/preset-react": "^7.13.13",
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^13.1.9",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.6.3",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-flowtype": "^5.7.2",
+    "eslint-plugin-import": "^2.23.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.23.2",
+    "flow-bin": "^0.151.0",
+    "flow-remove-types": "^2.151.0",
+    "global-jsdom": "^8.1.0",
+    "husky": "^6.0.0",
+    "jest": "^26.6.3",
+    "jsdom": "^16.5.3",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.0"
+  },
+  "standard": {
+    "plugins": [
+      "flowtype"
+    ],
+    "parser": "babel-eslint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "./**/*.test.js": [
+      "jest --bail --coverage"
+    ],
+    "./**/*.{js, jsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      ">0.3%",
+      "not ie 11",
+      "not dead",
+      "not op_mini all"
+    ]
+  }
+}
