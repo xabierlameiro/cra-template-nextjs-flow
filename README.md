@@ -2,6 +2,16 @@
 
 This is the unofficial Nextjs and Flow template for [Create React App](https://github.com/facebook/create-react-app).
 
+## Features
+
+- Nextjs with headers configured
+- Flow with flow-typed for next and react types
+- Jest and testing-library with test-utils
+- Prettier configuration
+- Eslint with standar configuration
+- Husky config precommit lint-staged
+- Vscode with my personal settings configuration and snippets
+
 To use this template, add `--template nextjs-flow` when creating a new app.
 
 For example:
