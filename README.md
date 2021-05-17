@@ -10,7 +10,7 @@ This is the unofficial Nextjs and Flow template for [Create React App](https://g
 - Prettier configuration
 - Eslint with standar configuration
 - Husky config precommit lint-staged
-- Vscode with my personal settings configuration and snippets
+- Vscode with my personal configuration and snippets
 
 To use this template, add `--template nextjs-flow` when creating a new app.
 
