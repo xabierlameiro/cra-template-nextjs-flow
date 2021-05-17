@@ -1,8 +1,8 @@
 {
-  "name": "cra-template-nextjs-flow",
+  "name": "my-new-app",
   "version": "0.0.0",
   "license": "MIT",
-  "author": "Xabier Lameiro xabier.lameiro@gmail.com",
+  "author": "name email",
   "private": false,
   "description": "A quick start Nextjs App template with React, Flow, Jest, Prettier, Eslint and Husky",
   "scripts": {
@@ -13,7 +13,6 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "cnextjsa-template-flow": "0.0.2",
     "flow-typed": "^3.3.1",
     "next": "10.2.0",
     "react": "17.0.2",

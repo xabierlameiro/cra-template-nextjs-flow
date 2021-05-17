@@ -1,8 +1,7 @@
 // @flow
-import React from 'react'
+import * as React from 'react'
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 // types
-import type { Element } from 'react'
 import type { DocumentContext } from 'next/document'
 
 class MyDocument extends Document {
@@ -11,7 +10,7 @@ class MyDocument extends Document {
         return { ...initialProps }
     }
 
-    render(): Element<'Html'> {
+    render(): React.Element<*> {
         return (
             <Html lang="en">
                 <Head>
