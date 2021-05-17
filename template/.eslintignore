@@ -1,0 +1,12 @@
+.cache
+.firebase
+.git
+.vscode
+public
+.eslintrc.json
+.prettierrc
+firebase.json
+package-lock.json
+package.json
+README.md
+flow-typed
