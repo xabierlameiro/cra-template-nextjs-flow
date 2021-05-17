@@ -2,7 +2,7 @@
 import * as React from 'react'
 
 export default function Home(param: {
-    ...
+    ...,
 }): React.Element<React$FragmentType> {
     return (
         <>
